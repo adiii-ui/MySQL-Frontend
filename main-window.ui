@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QDialog" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Main Menu</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.png</normaloff>icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">LoginPg:QDialog{background-color: qconicalgradient(cx:0.258528, cy:0.847, angle:20, stop:0 rgba(123, 230, 239, 255), stop:1 rgba(255, 255, 255, 255))}</string>
+  </property>
+  <widget class="QWidget" name="main_window_widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>811</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#main_window_widget{
+	background-color: qconicalgradient(cx:0.834955, cy:0.102, angle:180.3, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(133, 234, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="Error">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>560</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255, 0, 0,255);
+font: 75 bold 10pt &quot;MS Shell Dlg 2&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>781</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="go_back_btn">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 11pt &quot;Segoe UI Semilight&quot;;</string>
+       </property>
+       <property name="text">
+        <string>← Go Back</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="logout_btn">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+
+color: rgb(143, 16, 40);</string>
+       </property>
+       <property name="text">
+        <string>Log Out</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="Insert_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>160</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+text-decoration: underline;
+font: italic 12pt &quot;Segoe UI Semilight&quot;;
+background-color: rgb(76, 139, 255);
+alternate-background-color: rgb(55, 149, 167);
+color: rgb(255, 255, 255,255);</string>
+    </property>
+    <property name="text">
+     <string>Insert Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Update_btn">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>240</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(76, 139, 255);
+text-decoration: underline;
+font: italic 12pt &quot;Segoe UI Semilight&quot;;color: rgb(255, 255, 255,255);</string>
+    </property>
+    <property name="text">
+     <string>Update Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Display_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>320</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(0, 85, 0);
+text-decoration: underline;
+font: italic 12pt &quot;Segoe UI Semilight&quot;;
+color: rgb(255, 255, 255,255);</string>
+    </property>
+    <property name="text">
+     <string>Display All Data</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete_btn">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>400</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color: rgb(141, 0, 0);
+text-decoration: underline;
+font: italic 12pt &quot;Segoe UI Semilight&quot;;
+color: rgb(255, 255, 255,255);</string>
+    </property>
+    <property name="text">
+     <string>Delete Data</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="TBlistwidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>421</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(24, 24, 24);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="spacing">
+     <number>6</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="new_tb">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>New Table</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectiveDisplay_btn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>480</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color:rgb(0, 85, 0);
+text-decoration: underline;
+font: italic 12pt &quot;Segoe UI Semilight&quot;;color: rgb(255, 255, 255,255);</string>
+    </property>
+    <property name="text">
+     <string>Select and Export Data</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>301</width>
+      <height>213</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="add_col">
+       <property name="minimumSize">
+        <size>
+         <width>112</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(100, 100, 100);
+color: rgb(255, 255, 255);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Add Column</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modify_col">
+       <property name="styleSheet">
+        <string notr="true">
+color: rgb(255, 255, 255);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;border-radius:20px;
+background-color: rgb(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Modify Column</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rename_col">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;border-radius:20px;
+background-color: rgb(100, 100, 100);</string>
+       </property>
+       <property name="text">
+        <string>Rename Column</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delete_col">
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Delete Column</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rename_TB">
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(100, 100, 100);
+color: rgb(255, 255, 255);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Rename Table</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delete_TB">
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(170, 0, 0);
+color: rgb(255, 255, 255);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Delete Table</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="descTB">
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(10, 255, 20);
+color: rgb(0,0,0);
+font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Describe Table</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="DB_label">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>70</y>
+      <width>201</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(5, 17, 255);
+
+
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>191</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>Selected Database:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TB_label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>100</y>
+      <width>231</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(5, 17, 255);
+
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>Selected Table:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="alt_TB_label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>330</y>
+      <width>231</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(5, 17, 255);
+
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>121</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>Alter Table:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="resetMyConn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>290</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Resets the connection to MySQL Server running on the localhost.&lt;/p&gt;&lt;p&gt;Do this if you are getting unexpected Error popup-windows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Reset MySQL Connection</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
