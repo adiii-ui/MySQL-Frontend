@@ -1,5 +1,5 @@
 # MySQL-Frontend
-A GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
+A stripped-down GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
 
 This code is totally not perfect. And I admit it. My primary focus with the project was to get it all working with minimal semantic errors,
 atleast from my side. And I don't intend to actively develop on the program anytime in the future, atleast not now.
