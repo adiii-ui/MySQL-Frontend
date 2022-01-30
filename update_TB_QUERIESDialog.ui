@@ -175,7 +175,7 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(18, 65, 96);
-color: rgb(255, 255, 255);</string>
+color: rgb(225, 255, 225);</string>
      </property>
      <property name="editTriggers">
       <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
@@ -404,7 +404,7 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(96, 0, 0);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 225, 255);</string>
      </property>
      <property name="alternatingRowColors">
       <bool>true</bool>
