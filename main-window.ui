@@ -238,7 +238,7 @@ color: rgb(255, 255, 255,255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(24, 24, 24);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 225, 225);</string>
     </property>
     <property name="alternatingRowColors">
      <bool>true</bool>
