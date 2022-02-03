@@ -570,7 +570,7 @@ class selectiveDisplay_table(QDialog):
         self.fetchTB()
         self.goback.clicked.connect(lambda:self.stackedWidget.setCurrentIndex(self.stackedWidget.currentIndex() - 1))
         self.Querybox.textCursor().insertText("select * from {}".format(DB_TB_choice[1]))
-        self.clear_query.clicked.connect(lambda:self.Querybox.clear())
+        self.clear_query.clicked.connect(self.clearQuery)
         self.executor.clicked.connect(self.execute)
         self.TB_listWidget.itemDoubleClicked.connect(self.fetchColumns)
         self.col_listWidget.itemDoubleClicked.connect(lambda:self.selected_Col.setText(self.col_listWidget.currentItem().text()))
@@ -585,6 +585,15 @@ class selectiveDisplay_table(QDialog):
         self.query_listWidget.itemDoubleClicked.connect(self.reInsertQuery)
 
 
+
+   def clearQuery(self):
+        query=self.Querybox.toPlainText()
+        for item_index in range(self.query_listWidget.count()):
+            if self.query_listWidget.item(item_index).text() == query:
+                break
+        else:
+            self.query_listWidget.addItem(query)
+        self.Querybox.clear()
 
     def export_output_to_CSV(self):
         defaultFilename = 'MySQL_DataExport'
@@ -622,13 +631,9 @@ class selectiveDisplay_table(QDialog):
             DATA.append(rowDATA)
         #fetch_Columns
         try:
-            if TB_Col_choice[0] == None:
-                mycur.execute('desc {}'.format(DB_TB_choice[1]))
-            else:
-                mycur.execute('desc {}'.format(TB_Col_choice[0]))
-            rs = mycur.fetchall()
-            for row in rs:
-                COLUMNS.append(row[0])
+            query=self.Querybox.toPlainText()
+            mycur.execute(query)
+            COLUMNS = mycur.column_names
         except Exception as E:
             popup = QMessageBox.about(self,'ERROR','exportToCSV() FAILED: {}'.format(str(E)))
             print('exportToCSV() FAILED: {}'.format(str(E)))
@@ -636,7 +641,7 @@ class selectiveDisplay_table(QDialog):
         print('exportToCSV() COLUMNS:',COLUMNS)
         print('exportToCSV() DATA:',DATA)
         option = QFileDialog.Options()
-        #option |= QFileDialog.DontUseNativeDialog
+
         fileName_tup = QFileDialog.getSaveFileName(self,"Save CSV File",defaultFilename + '.csv','CSV Files (*.csv)',options= option)
 
         print('Obtained Filename:',fileName_tup)
@@ -796,8 +801,7 @@ class selectiveDisplay_table(QDialog):
                         for c_i in range(1, columncount+1):
                             self.tableWidget.setItem(r_i,c_i,QTableWidgetItem(str(rs2[r_i - 1][c_i - 1])))
                 self.stackedWidget.setCurrentIndex(self.stackedWidget.currentIndex() + 1)
-                self.query_listWidget.addItem(query)
-                self.Querybox.clear()
+               
             
             except Exception as E:
                 msg = "Error: {}".format(str(E)) + "\nType: {}".format(type(E))
