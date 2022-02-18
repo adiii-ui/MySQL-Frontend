@@ -53,8 +53,8 @@
       <rect>
        <x>10</x>
        <y>10</y>
-       <width>81</width>
-       <height>71</height>
+       <width>71</width>
+       <height>61</height>
       </rect>
      </property>
      <property name="text">
@@ -70,24 +70,21 @@
     <widget class="QLabel" name="title">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>10</y>
+       <x>90</x>
+       <y>9</y>
        <width>261</width>
-       <height>20</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
       <string>Select your Queries:</string>
      </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
     </widget>
     <widget class="QLabel" name="status">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>100</y>
+       <x>10</x>
+       <y>90</y>
        <width>81</width>
        <height>111</height>
       </rect>
@@ -115,7 +112,7 @@ font: oblique 9pt &quot;DejaVu Sans&quot;;</string>
     <widget class="QCheckBox" name="execAll">
      <property name="geometry">
       <rect>
-       <x>110</x>
+       <x>90</x>
        <y>200</y>
        <width>191</width>
        <height>25</height>
@@ -131,7 +128,7 @@ font: oblique 9pt &quot;DejaVu Sans&quot;;</string>
        <x>520</x>
        <y>200</y>
        <width>100</width>
-       <height>27</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -148,7 +145,7 @@ color: rgb(255, 255, 255);</string>
        <x>630</x>
        <y>200</y>
        <width>100</width>
-       <height>27</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -158,9 +155,9 @@ color: rgb(255, 255, 255);</string>
     <widget class="QListWidget" name="listWidget">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>90</x>
        <y>40</y>
-       <width>631</width>
+       <width>641</width>
        <height>151</height>
       </rect>
      </property>
@@ -175,13 +172,13 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(18, 65, 96);
-color: rgb(225, 255, 225);</string>
+color: rgb(0,125,137);;</string>
      </property>
      <property name="editTriggers">
       <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
      </property>
      <property name="alternatingRowColors">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="spacing">
       <number>3</number>
@@ -190,9 +187,9 @@ color: rgb(225, 255, 225);</string>
     <widget class="QLabel" name="activeQuery">
      <property name="geometry">
       <rect>
-       <x>280</x>
+       <x>240</x>
        <y>0</y>
-       <width>451</width>
+       <width>491</width>
        <height>41</height>
       </rect>
      </property>
@@ -224,10 +221,10 @@ color: rgb(0, 0, 0);</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>310</x>
+       <x>380</x>
        <y>200</y>
        <width>131</width>
-       <height>25</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="text">
@@ -404,10 +401,10 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(96, 0, 0);
-color: rgb(255, 225, 255);</string>
+color: rgb(237,0,127);</string>
      </property>
      <property name="alternatingRowColors">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
     </widget>
    </widget>
