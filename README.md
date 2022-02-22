@@ -1,10 +1,6 @@
 # MySQL-Frontend
 A stripped-down GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
 
-This code is totally not perfect. And I admit it. My primary focus with the project was to get it all working with minimal semantic errors,
-atleast from my side. And I don't intend to actively develop on the program anytime in the future, atleast not now.
-
-
 # System Requirements:
 This program should run on any computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed.
 
@@ -23,6 +19,15 @@ using the adjacent library package manager bundled in with your IDE.
 # Installation and Running
 
 1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Execute the python file MySQL-Frontendv2.0.py on your Python shell with above libraries installed on the computer.
-3. Pls do not move around any .png or .ui file into other directories otherwise the python script may not run well.
-4. You are done.
+2. Execute the latest version of the python file MySQL-Frontend_v2.0xx.py on your Python shell with above libraries installed on the computer.
+3. You are done.
+
+Please do not move around any .png or .ui file into other directories otherwise the python script may not run well. 
+
+# Known Look-&-Feel issues
+This program was developed to run on GNU/Linux, utilizing the Qt5Ct tool to configure the UI Elements' theming, default font size, behavior etc, of the Program.
+Hence it may not look good on Windows for example, which does not support configuring of the Qt UI Elements. You may encounter for example: a Button with really small text and so on.
+
+Sorry about that :(
+
+I shall be uploading another version of the MySQL Frontend for Windows, with the necessary tweaks applied, sometime in the future.
