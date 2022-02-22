@@ -19,7 +19,7 @@ using the adjacent library package manager bundled in with your IDE.
 # Installation and Running
 
 1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Execute the latest version of the python file <b>MySQL-Frontend_v2.0xx.py<\b> on your Python shell with above libraries installed on the computer.
+2. Execute the latest version of the python file <b>MySQL-Frontend_v2.0xx.py<b> on your Python shell with above libraries installed on the computer.
 3. You are done.
 
 Please do not move around any .png or .ui file into other directories otherwise the python script may not run well. 
