@@ -25,8 +25,8 @@ using the adjacent library package manager bundled in with your IDE.
 Please do not move around any .png or .ui file into other directories otherwise the python script may not run well. 
 
 # Known Look-&-Feel issues
-This program was developed to run on GNU/Linux, utilizing the Qt5Ct tool to configure the UI Elements' theming, default font size, behavior etc, of the Program.
-Hence it may not look good on Windows for example, which does not support configuring of the Qt UI Elements. You may encounter for example: a Button with really small text and so on.
+This program was developed to run on my GNU/Linux system, utilizing the Qt5Ct tool to configure the program's UI Elements' theming, default font size, behavior etc.
+Hence it may not look good on Windows for example, which does not support configuring of the Qt UI Elements. You may encounter for example: a Button with really small text, TextLabel with incomplete text and so on.
 
 Sorry about that :(
 
