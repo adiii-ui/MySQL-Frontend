@@ -24,10 +24,4 @@ using the adjacent library package manager bundled in with your IDE.
 
 Please do not move around any .png or .ui file into other directories otherwise the python script may not run well. 
 
-# Known Look-&-Feel issues
-This program was developed to run on my GNU/Linux system, utilizing the Qt5Ct tool to configure the program's UI Elements' theming, default font size, behavior etc.
-Hence it may not look good on Windows for example, which does not support configuring of the Qt UI Elements. You may encounter for example: a Button with really small text, TextLabel with incomplete text and so on.
 
-Sorry about that :(
-
-I shall be uploading another version of the MySQL Frontend for Windows, with the necessary tweaks applied, sometime in the future.
