@@ -247,7 +247,7 @@ font: 11pt &quot;Consolas&quot;;</string>
     <string notr="true">text-decoration:underline;</string>
    </property>
    <property name="text">
-    <string>Supported DML operations:</string>
+    <string>Supported Operations:</string>
    </property>
   </widget>
   <widget class="QWidget" name="gridLayoutWidget">
