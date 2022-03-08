@@ -68,7 +68,7 @@ background-color:qlineargradient(spread:reflect, x1:1, y1:0.472, x2:0.017, y2:0.
      <font>
       <family>Segoe UI Semibold</family>
       <pointsize>12</pointsize>
-      <weight>8</weight>
+      <weight>7</weight>
       <italic>true</italic>
       <bold>false</bold>
      </font>
@@ -108,7 +108,7 @@ font: 63 italic 12pt &quot;Segoe UI Semibold&quot;;
      <font>
       <family>Segoe UI Semibold</family>
       <pointsize>12</pointsize>
-      <weight>8</weight>
+      <weight>7</weight>
       <italic>true</italic>
       <bold>false</bold>
      </font>
@@ -424,7 +424,7 @@ font: 63 italic 12pt &quot;Segoe UI Semibold&quot;;
        <font>
         <family>Segoe UI Semibold</family>
         <pointsize>12</pointsize>
-        <weight>8</weight>
+        <weight>7</weight>
         <italic>true</italic>
         <bold>false</bold>
        </font>
@@ -457,7 +457,7 @@ background-color: qlineargradient(spread:pad, x1:0.502205, y1:1, x2:0.493, y2:0,
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="movable">
      <bool>true</bool>
@@ -514,14 +514,14 @@ background-color: qlineargradient(spread:pad, x1:0.502205, y1:1, x2:0.493, y2:0,
       <attribute name="horizontalHeaderCascadingSectionResizes">
        <bool>true</bool>
       </attribute>
-      <attribute name="horizontalHeaderMinimumSectionSize">
-       <number>100</number>
-      </attribute>
       <attribute name="horizontalHeaderDefaultSectionSize">
        <number>140</number>
       </attribute>
       <attribute name="horizontalHeaderHighlightSections">
        <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>100</number>
       </attribute>
       <attribute name="verticalHeaderVisible">
        <bool>false</bool>
@@ -529,10 +529,10 @@ background-color: qlineargradient(spread:pad, x1:0.502205, y1:1, x2:0.493, y2:0,
       <attribute name="verticalHeaderCascadingSectionResizes">
        <bool>true</bool>
       </attribute>
-      <attribute name="verticalHeaderMinimumSectionSize">
+      <attribute name="verticalHeaderDefaultSectionSize">
        <number>30</number>
       </attribute>
-      <attribute name="verticalHeaderDefaultSectionSize">
+      <attribute name="verticalHeaderMinimumSectionSize">
        <number>30</number>
       </attribute>
       <attribute name="verticalHeaderStretchLastSection">
