@@ -1,12 +1,12 @@
-# MySQL-Frontend
+# MySQL-Frontend for Windows 10
 A stripped-down GUI frontend developed in Python3 for simple admin tasks on MySQL-Server running on the localhost. Developed for my CS School Project.
 
-This code is totally not perfect. And I admit it. My primary focus with the project was to get it all working with minimal semantic errors,
-atleast from my side. And I don't intend to actively develop on the program anytime in the future, atleast not now.
-
+# What's different
+This branch now has its GUI optimised for windows using the fonts provided by MS.
+Other than that, there's hardly any difference.
 
 # System Requirements:
-This program should run on any computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed.
+This program should run on your Windows computer with Python3, MySQL Server, and the below-mentioned Python Libraries installed.
 
 # Installation Pre-requisites
 1. The Following Python Libraries are required to execute the program:
