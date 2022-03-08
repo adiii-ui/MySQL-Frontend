@@ -346,21 +346,22 @@ color: rgb(255, 255, 255);</string>
       <rect>
        <x>100</x>
        <y>200</y>
-       <width>181</width>
+       <width>201</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Consolas</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 11pt &quot;Consolas&quot;;</string>
+      <string notr="true">
+font: 10pt &quot;Consolas&quot;;</string>
      </property>
      <property name="text">
       <string>Table will be TRUNCATED to update data.</string>
