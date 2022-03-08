@@ -185,7 +185,7 @@ border-radius:20px</string>
      <string/>
     </property>
     <property name="styleSheet">
-     <string notr="true">
+     <string notr="true">font: 14pt &quot;Segoe UI&quot;;
 border-right-color: rgb(0, 0, 0);
 border-left-color: rgb(0, 0, 0);</string>
     </property>

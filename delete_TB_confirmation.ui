@@ -89,7 +89,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;Montserrat&quot;;</string>
+    <string notr="true">font: italic 12pt &quot;Segoe UI&quot;;</string>
    </property>
    <property name="text">
     <string>Are you sure you want to delete the selected table?</string>

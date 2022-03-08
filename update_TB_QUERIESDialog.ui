@@ -163,15 +163,16 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="font">
       <font>
-       <family>DejaVu Sans Mono</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <italic>true</italic>
-       <bold>true</bold>
+       <family>Consolas</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(18, 65, 96);
+      <string notr="true">font: 11pt &quot;Consolas&quot;;
+background-color: rgb(18, 65, 96);
 color: rgb(0,125,137);;</string>
      </property>
      <property name="editTriggers">
@@ -318,16 +319,16 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="font">
       <font>
-       <family>DejaVu Sans Mono</family>
-       <pointsize>9</pointsize>
-       <weight>75</weight>
+       <family>Consolas</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
        <italic>false</italic>
-       <bold>true</bold>
+       <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(126, 0, 0);
-font: 75 bold 9pt &quot;DejaVu Sans Mono&quot;;
+font: 11pt &quot;Consolas&quot;;
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="frameShape">
@@ -351,11 +352,15 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="font">
       <font>
-       <family>DejaVu Sans Mono</family>
-       <pointsize>9</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <family>Consolas</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;Consolas&quot;;</string>
      </property>
      <property name="text">
       <string>Table will be TRUNCATED to update data.</string>
@@ -392,15 +397,16 @@ color: rgb(255, 255, 255);</string>
      </property>
      <property name="font">
       <font>
-       <family>DejaVu Sans Mono</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <italic>true</italic>
-       <bold>true</bold>
+       <family>Consolas</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(96, 0, 0);
+      <string notr="true">font: 11pt &quot;Consolas&quot;;
+background-color: rgb(96, 0, 0);
 color: rgb(237,0,127);</string>
      </property>
      <property name="alternatingRowColors">
@@ -450,7 +456,7 @@ color: rgb(237,0,127);</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 bold oblique 12pt &quot;DejaVu Sans Mono&quot;;</string>
+      <string notr="true">font: bold oblique 15pt &quot;Consolas&quot;;</string>
      </property>
      <property name="text">
       <string>WARNING: QueryTest Failed!</string>
@@ -516,7 +522,7 @@ color: rgb(237,0,127);</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 bold oblique 12pt &quot;DejaVu Sans Mono&quot;;</string>
+      <string notr="true">font: bold oblique 12pt &quot;Consolas&quot;;</string>
      </property>
      <property name="text">
       <string>Do you want to TRUNCATE [delete ALL DATA from] table and FORCE THE UPDATE?</string>

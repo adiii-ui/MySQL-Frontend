@@ -1348,7 +1348,7 @@ class wel_Login_scr(QDialog):
     def helpPopup(self):
         print('User Clicked loginHelp Btn.')
         msg="""
-This program is designed to work on MySQL Server v5.1.33 and above, installed
+This program is designed to work on MySQL Server v5.1.33 and above, installed \
 NATIVELY on your computer.
 
 Default Username: root

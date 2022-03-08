@@ -66,9 +66,11 @@ background-color:qlineargradient(spread:reflect, x1:1, y1:0.472, x2:0.017, y2:0.
     </property>
     <property name="font">
      <font>
-      <weight>75</weight>
+      <family>Segoe UI Semibold</family>
+      <pointsize>12</pointsize>
+      <weight>8</weight>
       <italic>true</italic>
-      <bold>true</bold>
+      <bold>false</bold>
      </font>
     </property>
     <property name="cursor">
@@ -80,6 +82,7 @@ background-color:qlineargradient(spread:reflect, x1:1, y1:0.472, x2:0.017, y2:0.
     <property name="styleSheet">
      <string notr="true">background-color: rgb(0, 85, 255);
 color: rgb(255, 255, 255);
+font: 63 italic 12pt &quot;Segoe UI Semibold&quot;;
 </string>
     </property>
     <property name="text">
@@ -103,9 +106,11 @@ color: rgb(255, 255, 255);
     </property>
     <property name="font">
      <font>
+      <family>Segoe UI Semibold</family>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>8</weight>
+      <italic>true</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="cursor">
@@ -116,6 +121,9 @@ color: rgb(255, 255, 255);
     </property>
     <property name="tabletTracking">
      <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 italic 12pt &quot;Segoe UI Semibold&quot;;</string>
     </property>
     <property name="text">
      <string>🠔 Go Back</string>
@@ -134,7 +142,7 @@ color: rgb(255, 255, 255);
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -414,9 +422,11 @@ color: rgb(255, 255, 255);
       </property>
       <property name="font">
        <font>
-        <weight>75</weight>
+        <family>Segoe UI Semibold</family>
+        <pointsize>12</pointsize>
+        <weight>8</weight>
         <italic>true</italic>
-        <bold>true</bold>
+        <bold>false</bold>
        </font>
       </property>
       <property name="cursor">
@@ -426,7 +436,7 @@ color: rgb(255, 255, 255);
        <bool>true</bool>
       </property>
       <property name="styleSheet">
-       <string notr="true">
+       <string notr="true">font: 63 italic 12pt &quot;Segoe UI Semibold&quot;;
 color: rgba(255, 255, 255, 255);
 border-radius:20px;
 background-color: qlineargradient(spread:pad, x1:0.502205, y1:1, x2:0.493, y2:0, stop:0 rgba(0, 130, 181, 255), stop:1 rgba(0, 244, 233, 255));</string>
@@ -447,7 +457,7 @@ background-color: qlineargradient(spread:pad, x1:0.502205, y1:1, x2:0.493, y2:0,
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <property name="movable">
      <bool>true</bool>
@@ -541,7 +551,8 @@ background-color: qlineargradient(spread:pad, x1:0.502205, y1:1, x2:0.493, y2:0,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: italic 11pt &quot;DejaVu Sans Mono&quot;;</string>
+     <string notr="true">font: 11pt &quot;Consolas&quot;;
+</string>
     </property>
     <property name="placeholderText">
      <string>alter table &lt;table_name&gt; modify (&lt;attrib_name&gt; &lt;NEW_datatype&gt;);</string>

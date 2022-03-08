@@ -733,7 +733,7 @@ border-color: rgb(0, 0, 0);</string>
      <widget class="QLabel" name="selectedTB">
       <property name="geometry">
        <rect>
-        <x>170</x>
+        <x>150</x>
         <y>20</y>
         <width>241</width>
         <height>31</height>
@@ -741,26 +741,20 @@ border-color: rgb(0, 0, 0);</string>
       </property>
       <property name="font">
        <font>
-        <pointsize>11</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <family>Segoe UI Semibold</family>
+        <pointsize>12</pointsize>
+        <weight>8</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+        <underline>true</underline>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 63 italic 12pt &quot;Segoe UI Semibold&quot;;
+text-decoration: underline;</string>
       </property>
       <property name="text">
        <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="Line" name="line">
-      <property name="geometry">
-       <rect>
-        <x>133</x>
-        <y>0</y>
-        <width>20</width>
-        <height>49</height>
-       </rect>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
       </property>
      </widget>
      <widget class="QPushButton" name="go_back">
@@ -774,16 +768,18 @@ border-color: rgb(0, 0, 0);</string>
       </property>
       <property name="font">
        <font>
+        <family>Segoe UI Semibold</family>
         <pointsize>11</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <weight>8</weight>
+        <italic>true</italic>
+        <bold>false</bold>
        </font>
       </property>
       <property name="cursor">
        <cursorShape>PointingHandCursor</cursorShape>
       </property>
       <property name="styleSheet">
-       <string notr="true"/>
+       <string notr="true">font: 63 italic 11pt &quot;Segoe UI Semibold&quot;;</string>
       </property>
       <property name="text">
        <string>&lt;- Go Back</string>
@@ -911,7 +907,7 @@ border-radius:28px
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 57 16pt &quot;Montserrat Medium&quot;;</string>
+       <string notr="true">font: 18pt &quot;Eras Medium ITC&quot;;</string>
       </property>
       <property name="text">
        <string>Table was updated successfully.</string>
