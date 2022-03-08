@@ -67,9 +67,9 @@
     <widget class="QWidget" name="horizontalLayoutWidget">
      <property name="geometry">
       <rect>
-       <x>44</x>
+       <x>34</x>
        <y>180</y>
-       <width>401</width>
+       <width>411</width>
        <height>22</height>
       </rect>
      </property>
@@ -153,49 +153,49 @@
       <set>QAbstractItemView::NoEditTriggers</set>
      </property>
     </widget>
-    <widget class="QLabel" name="label_5">
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>20</y>
-       <width>141</width>
-       <height>16</height>
+       <y>10</y>
+       <width>421</width>
+       <height>31</height>
       </rect>
      </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Select Column:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="selectedTB">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>20</y>
-       <width>241</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>8</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Selected Table: </string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Select Column:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="selectedTB">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Selected Table: </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QWidget" name="confirmation_page">
@@ -238,13 +238,13 @@
      <property name="geometry">
       <rect>
        <x>190</x>
-       <y>110</y>
+       <y>120</y>
        <width>251</width>
        <height>51</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 12pt &quot;Montserrat&quot;;</string>
+      <string notr="true">font: 63 italic 11pt &quot;Segoe UI Semibold&quot;;</string>
      </property>
      <property name="text">
       <string>Are you sure you want to rename the selected column:</string>

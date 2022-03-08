@@ -141,17 +141,20 @@ border-radius:20px
     </property>
     <property name="font">
      <font>
-      <family>Linux Biolinum G</family>
+      <family>Segoe Ui Semibold</family>
       <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="cursor">
      <cursorShape>ArrowCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(222, 255, 222);</string>
+     <string notr="true">background-color: rgb(222, 255, 222);
+font: 10pt &quot;Segoe Ui Semibold&quot;;
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="tabShape">
      <enum>QTabWidget::Rounded</enum>
@@ -168,7 +171,7 @@ border-radius:20px
        <rect>
         <x>10</x>
         <y>90</y>
-        <width>241</width>
+        <width>261</width>
         <height>41</height>
        </rect>
       </property>
@@ -188,7 +191,7 @@ border-radius:10px
        <rect>
         <x>10</x>
         <y>50</y>
-        <width>241</width>
+        <width>261</width>
         <height>31</height>
        </rect>
       </property>
@@ -196,7 +199,7 @@ border-radius:10px
        <bool>false</bool>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 10pt &quot;DejaVu Sans Mono&quot;;
+       <string notr="true">font: 11pt &quot;Consolas&quot;;
 background-color: rgb(255, 255, 255);
 border-radius:10px</string>
       </property>
@@ -218,15 +221,15 @@ border-radius:10px</string>
       </property>
       <property name="font">
        <font>
-        <family>Leelawadee UI</family>
+        <family>Segoe UI Semibold</family>
         <pointsize>12</pointsize>
         <weight>50</weight>
-        <italic>false</italic>
+        <italic>true</italic>
         <bold>false</bold>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 12pt &quot;Leelawadee UI&quot;;
+       <string notr="true">font: italic 12pt &quot;Segoe UI Semibold&quot;;
 color: rgb(68, 68, 68);</string>
       </property>
       <property name="text">
@@ -263,7 +266,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <rect>
         <x>10</x>
         <y>80</y>
-        <width>241</width>
+        <width>261</width>
         <height>31</height>
        </rect>
       </property>
@@ -284,7 +287,7 @@ border-radius:10px</string>
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>271</width>
+        <width>291</width>
         <height>171</height>
        </rect>
       </property>
@@ -341,7 +344,7 @@ background-color: rgba(255, 255, 255, 0);</string>
         <rect>
          <x>10</x>
          <y>120</y>
-         <width>241</width>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -373,8 +376,8 @@ border-radius:10px
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>271</width>
-        <height>161</height>
+        <width>291</width>
+        <height>171</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -386,7 +389,7 @@ background-color: rgb(255, 210, 220);</string>
         <rect>
          <x>10</x>
          <y>110</y>
-         <width>241</width>
+         <width>261</width>
          <height>31</height>
         </rect>
        </property>
@@ -461,10 +464,11 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="font">
      <font>
-      <family>Linux Biolinum G</family>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Georgia</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="cursor">
@@ -475,6 +479,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(222, 255, 222);
+font: 15pt &quot;Georgia&quot;;
 border-radius:20px
 </string>
     </property>
@@ -523,7 +528,7 @@ border-radius:20px
     <property name="styleSheet">
      <string notr="true">
 text-decoration: underline;
-font: italic 14pt &quot;Segoe UI Semilight&quot;;</string>
+font: italic 16pt &quot;Georgia&quot;;</string>
     </property>
     <property name="text">
      <string>Pick your Database:</string>
@@ -532,7 +537,7 @@ font: italic 14pt &quot;Segoe UI Semilight&quot;;</string>
    <widget class="QLabel" name="selection">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>260</x>
       <y>40</y>
       <width>441</width>
       <height>51</height>

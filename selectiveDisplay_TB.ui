@@ -63,7 +63,7 @@ background-color: qlineargradient(spread:pad, x1:0.502793, y1:1, x2:0.503, y2:0,
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: bold italic 11pt &quot;DejaVu Sans Mono&quot;;</string>
+      <string notr="true">font: 11pt &quot;Consolas&quot;;</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::Box</enum>
@@ -86,15 +86,17 @@ background-color: qlineargradient(spread:pad, x1:0.502793, y1:1, x2:0.503, y2:0,
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
-       <weight>75</weight>
-       <italic>false</italic>
-       <bold>true</bold>
+       <family>Segoe UI Semibold</family>
+       <pointsize>11</pointsize>
+       <weight>8</weight>
+       <italic>true</italic>
+       <bold>false</bold>
        <underline>true</underline>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">text-decoration:underline;</string>
+      <string notr="true">text-decoration:underline;
+font: 63 italic 11pt &quot;Segoe UI Semibold&quot;;</string>
      </property>
      <property name="text">
       <string>Select a table and Enter the MySQL query to display the table with adj. conditions.</string>
@@ -295,11 +297,15 @@ background-color: rgb(0, 40, 122)</string>
         </property>
         <property name="font">
          <font>
-          <family>DejaVu Sans Mono</family>
-          <pointsize>9</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <family>Consolas</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;Consolas&quot;;</string>
         </property>
         <property name="editTriggers">
          <set>QAbstractItemView::NoEditTriggers</set>
