@@ -23,6 +23,6 @@ using the adjacent library package manager bundled in with your IDE.
 # Installation and Running
 
 1. Download the entire repo contents as a .zip and extract it in a folder on your computer.
-2. Execute the python file MySQL-Frontendv2.0.py on your Python shell with above libraries installed on the computer.
+2. Execute the python file MySQL-Frontend_v2.0XX.py on your Python shell with above libraries installed on the computer.
 3. Pls do not move around any .png or .ui file into other directories otherwise the python script may not run well.
 4. You are done.
