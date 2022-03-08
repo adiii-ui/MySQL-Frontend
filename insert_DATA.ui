@@ -106,7 +106,7 @@ background-color:qlineargradient(spread:reflect, x1:1, y1:0.472, x2:0.017, y2:0.
         <font>
          <family>Segoe UI Semibold</family>
          <pointsize>12</pointsize>
-         <weight>8</weight>
+         <weight>7</weight>
          <italic>true</italic>
          <bold>false</bold>
         </font>
@@ -125,7 +125,7 @@ background-color:qlineargradient(spread:reflect, x1:1, y1:0.472, x2:0.017, y2:0.
         <font>
          <family>Segoe UI Semibold</family>
          <pointsize>12</pointsize>
-         <weight>8</weight>
+         <weight>7</weight>
          <italic>true</italic>
          <bold>false</bold>
         </font>
@@ -144,7 +144,7 @@ background-color:qlineargradient(spread:reflect, x1:1, y1:0.472, x2:0.017, y2:0.
         <font>
          <family>Segoe UI Semibold</family>
          <pointsize>12</pointsize>
-         <weight>8</weight>
+         <weight>7</weight>
          <italic>true</italic>
          <bold>false</bold>
         </font>
@@ -164,7 +164,7 @@ color: rgb(49, 52, 255);</string>
         <font>
          <family>Segoe UI Semibold</family>
          <pointsize>12</pointsize>
-         <weight>8</weight>
+         <weight>7</weight>
          <italic>true</italic>
          <bold>false</bold>
         </font>
@@ -661,7 +661,7 @@ border-radius:20px</string>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="movable">
      <bool>true</bool>
@@ -757,12 +757,12 @@ border-radius:20px</string>
      <rect>
       <x>60</x>
       <y>30</y>
-      <width>351</width>
+      <width>401</width>
       <height>26</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 63 italic 16pt &quot;Segoe UI Semibold&quot;;</string>
+     <string notr="true">font: 63 italic 14pt &quot;Segoe UI Semibold&quot;;</string>
     </property>
     <property name="text">
      <string>Type your MySQL Query to Insert Data.</string>
@@ -898,7 +898,7 @@ color: rgba(255, 255, 255,255);
      <font>
       <family>Segoe UI Semibold</family>
       <pointsize>12</pointsize>
-      <weight>8</weight>
+      <weight>7</weight>
       <italic>true</italic>
       <bold>false</bold>
      </font>
